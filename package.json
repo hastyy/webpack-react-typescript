@@ -1,0 +1,27 @@
+{
+  "name": "webpack-typescript",
+  "version": "0.1.0",
+  "description": "Webpack base configuration for a React Typescript project.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "webpack --env production",
+    "start": "nodemon --watch webpack.config.js --exec \"webpack-dev-server --env development\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.18.3",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
